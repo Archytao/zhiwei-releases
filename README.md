@@ -2,10 +2,18 @@
 
 本仓库仅发布“知微 · 智能需求分析助手”的可执行安装包与 SHA-256 校验文件。
 
+## 当前版本
+
+当前版本：`1.1.7`
+
+- [下载通用安装包](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip)
+- [查看 SHA-256](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip.sha256)
+
+同一个通用包同时用于首次安装和版本更新。
+
 ## 下载规则
 
-- 首次安装使用当前版本的 `*-bootstrap.zip`。
-- 已安装用户使用当前版本的 `*-release.zip`。
+- 首次安装和已安装用户统一使用当前版本的 `zhiwei-requirement-assistant-<version>.zip`。
 - 安装器会核对文件大小和 SHA-256；校验失败必须停止。
 - 历史版本保留在对应 GitHub Release，不覆盖同名资产。
 
