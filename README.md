@@ -9,6 +9,12 @@
 - [下载通用安装包](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip)
 - [查看 SHA-256](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip.sha256)
 
+自动安装：
+
+```bash
+curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Archytao/zhiwei-releases/main/install.sh' -o /tmp/zhiwei-install.sh && sh /tmp/zhiwei-install.sh
+```
+
 同一个通用包同时用于首次安装和版本更新。
 
 ## 下载规则
