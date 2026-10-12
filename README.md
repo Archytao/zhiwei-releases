@@ -4,10 +4,10 @@
 
 ## 当前版本
 
-当前版本：`1.1.7`
+当前版本：`1.1.8`
 
-- [下载通用安装包](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip)
-- [查看 SHA-256](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip.sha256)
+- [下载通用安装包](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.8/zhiwei-requirement-assistant-1.1.8.zip)
+- [查看 SHA-256](https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.8/zhiwei-requirement-assistant-1.1.8.zip.sha256)
 
 自动安装：
 
@@ -16,6 +16,8 @@ curl --proto '=https' --tlsv1.2 -fsSL 'https://raw.githubusercontent.com/Archyta
 ```
 
 同一个通用包同时用于首次安装和版本更新。
+
+`1.1.8` 包含完整需求评审闭环：需求澄清、PRD/飞书、创建 PA、Outlook 评审会议草稿、截图生成评审通知，以及邮件发送成功后的 PA 状态流转。
 
 ## 下载规则
 

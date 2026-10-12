@@ -12,11 +12,11 @@ for command_name in curl unzip zipinfo node ssh; do
   command -v "$command_name" >/dev/null 2>&1 || fail "缺少 $command_name"
 done
 
-DOWNLOAD_URL='https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.7/zhiwei-requirement-assistant-1.1.7.zip'
-EXPECTED_NAME='zhiwei-requirement-assistant-1.1.7.zip'
-EXPECTED_SIZE='1622761'
-EXPECTED_SHA256='27deafab7e235485a30ef78eec140ec9560bd5087ffbdfc349e043d3bde8e4cb'
-EXPECTED_VERSION='1.1.7'
+DOWNLOAD_URL='https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.8/zhiwei-requirement-assistant-1.1.8.zip'
+EXPECTED_NAME='zhiwei-requirement-assistant-1.1.8.zip'
+EXPECTED_SIZE='1631205'
+EXPECTED_SHA256='894e6e6add59034d1e0d308cb725cd4e70a825c79a4620c132f3859a1584b16c'
+EXPECTED_VERSION='1.1.8'
 WORK_DIR=$(mktemp -d /tmp/zhiwei-install.XXXXXX)
 ARCHIVE="$WORK_DIR/package.zip"
 EXTRACT_ROOT="$WORK_DIR/extract"
@@ -62,4 +62,4 @@ ACTUAL_VERSION=$(node -e "const fs=require('fs');const m=JSON.parse(fs.readFileS
 printf '已校验 %s，开始安装...\n' "$EXPECTED_NAME"
 sh "$PACKAGE_ROOT/install.command" "$@"
 sh "$PACKAGE_ROOT/doctor.command" "$@"
-printf '知微 %s 安装完成。首次安装与版本更新使用同一个通用包。\n' "$EXPECTED_VERSION"
+printf '知微 %s 安装完成，已包含需求评审会议与评审通知闭环。\n' "$EXPECTED_VERSION"
