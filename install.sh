@@ -12,11 +12,11 @@ for command_name in curl unzip zipinfo node ssh; do
   command -v "$command_name" >/dev/null 2>&1 || fail "缺少 $command_name"
 done
 
-DOWNLOAD_URL='https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.8/zhiwei-requirement-assistant-1.1.8.zip'
-EXPECTED_NAME='zhiwei-requirement-assistant-1.1.8.zip'
-EXPECTED_SIZE='1631205'
-EXPECTED_SHA256='894e6e6add59034d1e0d308cb725cd4e70a825c79a4620c132f3859a1584b16c'
-EXPECTED_VERSION='1.1.8'
+DOWNLOAD_URL='https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.9/zhiwei-requirement-assistant-1.1.9.zip'
+EXPECTED_NAME='zhiwei-requirement-assistant-1.1.9.zip'
+EXPECTED_SIZE='1631203'
+EXPECTED_SHA256='5cf70d37bac7d00646830d59bfca7bac69ff2c8b50366fb561622c223889fa10'
+EXPECTED_VERSION='1.1.9'
 WORK_DIR=$(mktemp -d /tmp/zhiwei-install.XXXXXX)
 ARCHIVE="$WORK_DIR/package.zip"
 EXTRACT_ROOT="$WORK_DIR/extract"
