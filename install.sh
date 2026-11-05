@@ -14,8 +14,8 @@ done
 
 DOWNLOAD_URL='https://github.com/Archytao/zhiwei-releases/releases/download/v1.1.9/zhiwei-requirement-assistant-1.1.9.zip'
 EXPECTED_NAME='zhiwei-requirement-assistant-1.1.9.zip'
-EXPECTED_SIZE='1631707'
-EXPECTED_SHA256='69d7d6ce06b7a7ed7d0a05e2d0018ced7e9aa02c1dbc1f3a61e88ad197dd478e'
+EXPECTED_SIZE='1628841'
+EXPECTED_SHA256='4eecda22bb60df9d8700a2275e043635f3ec1ad06a3ee9df4e34aa2c29529196'
 EXPECTED_VERSION='1.1.9'
 WORK_DIR=$(mktemp -d /tmp/zhiwei-install.XXXXXX)
 ARCHIVE="$WORK_DIR/package.zip"
